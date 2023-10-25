@@ -32,7 +32,10 @@
     </header><!--.header-->
     <main class="contenedor">
         <h3 class="centrar-texto">Sobre Nosotros</h3><!--.centrar-texto-->
-        <img src="img/blog1.jpg" alt="imagen del blog">
+        <picture>
+            <source loading="lazy" srcset="./img/blog1.webp" type="image/webp">
+            <img loading="lazy" src="img/blog1.jpg" alt="imagen blog">
+        </picture>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, itaque eius? Dolores tempore ad similique possimus iste modi voluptatem, rem, maiores expedita aperiam sint fuga dolorem exercitationem autem dicta animi!
         Odio consequuntur ducimus ipsam maiores, maxime suscipit tenetur temporibus ipsa dolore omnis, voluptate debitis iste quae excepturi. Deleniti voluptatem laborum corrupti aspernatur saepe modi quae cum. Quis nulla repudiandae officia.
         Mollitia expedita obcaecati odio minima neque beatae officiis sint recusandae, aut culpa magni modi asperiores. Nesciunt quae sunt temporibus, totam laboriosam nostrum quam iure iste eaque deserunt, vitae, dolores tenetur.</p>
@@ -57,5 +60,6 @@
             </div><!--.barra-->
         </div>
     </footer>
+    <script src="./js/modernizr.js"></script>
 </body>
 </html>
